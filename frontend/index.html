@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width", initial-scale="1.0">
+    <title>Translator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="text">
+        <textarea name="" id="sourceText", placeholder="Enter Text"></textarea>
+        <textarea name="" id="targetText", placeholder="Translation "></textarea>
+    </div>
+    <div class="selectArea">
+        <div class="select1">
+            <img src="assets/speaker.svg" alt="" class="icon-btn" id="speakSource">
+            <img src="assets/copy.svg" alt="" class="icon-btn" id="copySource">
+            <select name="" id="sourceSelect">
+                <option value="en">English</option>
+                <option value="ar">Arabic</option>
+            </select>
+        </div>
+        <img src="assets/swap.svg" alt="" id="swap" class="swap-icon">
+        <div class="select2">
+            <img src="assets/speaker.svg" alt="" class="icon-btn" id="speakTarget">
+            <img src="assets/copy.svg" alt="" class="icon-btn" id="copyTarget">
+            <select name="" id="targetSelect">
+                <option value="ar">Arabic</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </div>
+    <button id="translate">Translate</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
